@@ -3,6 +3,6 @@ public class Programm {
 
 
 
-        System.out.println("sdas");
+        System.out.println("Denik");
     }
 }
