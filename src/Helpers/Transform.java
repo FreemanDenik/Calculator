@@ -48,7 +48,7 @@ public class Transform {
                 firstOut = rome.ConvertSimpleToInt(firstArr);
                 secondOut = rome.ConvertSimpleToInt(secondArr);
             } else {
-                throw new Exception("Цифры джолжны быть либо римскими либо арабскими");
+                throw new Exception("Цифры джолжны быть либо римскими либо арабскими и числом не больше 10");
             }
             if(firstOut > 10 || secondOut > 10)
                 throw new Exception("Цифра должна быть не больше 10");
