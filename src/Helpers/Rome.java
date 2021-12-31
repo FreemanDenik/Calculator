@@ -16,6 +16,7 @@ public class Rome {
         Collect.put("VIII", 8);
         Collect.put("IX", 9);
         Collect.put("X", 10);
+
     }
     // Проверить римская цифра или нет
     public Boolean IsRome(String str){
